@@ -1,0 +1,65 @@
+
+.input-ip-address{
+  display: flex;
+  justify-content: center;
+  margin-right: 70px;
+}
+
+.input-ip-address input{
+  width: 100px;
+  padding: 8px;
+  border-radius: 5px;
+  border: none;
+  background-color: rgb(227, 255, 227);
+  font-size: 18px;
+  
+}
+.input-ip-address input::placeholder{
+  color: rgb(170, 168, 168);
+  font-size: 14px;
+}
+.input-ip-address input:focus{
+  outline: none;
+}
+
+.input-ip-address span{
+  margin-left: 5px;
+  margin-right: 5px;
+  font-size: 40px;
+  font-weight: bold;
+}
+
+.btn{
+  display: flex;
+}
+.btn-submit{
+  border:2px solid rgb(107, 201, 107);
+  color: rgb(58, 58, 58);
+  background-color: rgb(255, 255, 255);
+  font-weight: 700;
+  margin-right: 20px;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border-radius: 5px;
+  font-size: 14px;
+  cursor: pointer;
+}
+.btn-submit:hover{
+  background-color: rgb(107, 201, 107);
+  color: white;
+}
+.btn-reset{
+  background-color: rgb(77, 121, 224);
+  color: white;
+  font-weight: 700;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border-radius: 5px;
+  font-size: 14px;
+  cursor: pointer;
+  border: none;
+}
