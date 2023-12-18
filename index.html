@@ -12,20 +12,22 @@
   <div class="container">
     <div class="left-side">
       <div class="input-ip-address">
-        <input type="number" placeholder="Octet 1"><span>.</span>
-        <input type="number" placeholder="Octet 2"><span>.</span>
-        <input type="number" placeholder="Octet 3"><span>.</span>
-        <input type="number" placeholder="Octet 4">
-      </div><br><br>
+        <input id="o1" type="number" placeholder="Octet 1"><span>.</span>
+        <input id="o2" type="number" placeholder="Octet 2"><span>.</span>
+        <input id="o3" type="number" placeholder="Octet 3"><span>.</span>
+        <input id="o4" type="number" placeholder="Octet 4">
+      </div>
+      <p class="errorMsg"></p>
+      <br><br>
       <div class="btn">
-        <button class="btn-submit">Submit</button>
+        <button id="ipAddSubmit" class="btn-submit">Submit</button>
         <button class="btn-reset">Reset</button>
       </div><br><br><br>
-      <div class="subnets-number">
+      <div style="display: none;" class="subnets-number">
         <input type="number" placeholder="How much subnets that you need ?">
         <button>Submit</button>
       </div><br><br>
-      <div id="ensemble_de_subnets_here">
+      <div style="display: none;" id="ensemble_de_subnets_here">
         <div class="subnet-hosts">
           <input type="text" value="Subnet Name 1">
           <input type="number" placeholder="Number of Hosts">
@@ -50,10 +52,24 @@
         <button class="btn-reset">Reset</button>
         </div>
       </div>
+      <div class="right-side">
+        <table>
+          <thead>
+            <tr>
+              <th>Subnet Name</th>
+              <th>Hosts Needed</th>
+              <th>Network Address</th>
+              <th>Slash</th>
+              <th>Mask</th>
+              <th>Usable Range</th>
+              <th>Broadcast</th>
+            </tr>
+          </thead>
+          <tbody>
+          </tbody>
+        </table>
+        </div>
     </div>
-    <div class="right-side">
-
-    </div>
-  </div>
+    <script src="index.js"></script>
 </body>
 </html>

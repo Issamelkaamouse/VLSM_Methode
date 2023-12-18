@@ -63,3 +63,10 @@
   cursor: pointer;
   border: none;
 }
+
+.errorMsg{
+  color: red;
+  font-weight: 800;
+}
+
+

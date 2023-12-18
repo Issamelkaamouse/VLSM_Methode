@@ -22,6 +22,9 @@ body{
   align-items: start;
   margin-left: 50px;
 }
+
 .right-side{
   width: 65%;
+  height: 90%;
+  margin-left: 20px;
 }
